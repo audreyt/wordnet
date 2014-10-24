@@ -1,5 +1,5 @@
-pos='r'
-lines=open('data.adv').readlines()
+pos='n'
+lines=open('data.noun').readlines()
 index={}
 for line in lines:
     line=line.split()
