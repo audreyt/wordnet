@@ -1,11 +1,12 @@
-pos='n'
-lines=open('data.noun').readlines()
-index={}
+lines=open('data.verb').readlines()
+pos='v'
+index={} # {word:[offsets]}
 for line in lines:
     line=line.split()
-    offset=line[0]
-    word=line[4]
-    if word not in index:index[word]=[offset]
-    else:index[word].append(offset)
+    if len(line)>1:
+        offset=line[0]
+        word=line[4]
+        if word not in index:index[word]=[offset]
+        else:index[word].append(offset)
 for key,value in index.items():
     print key,pos,len(value),0,len(value),0,' '.join(value)
