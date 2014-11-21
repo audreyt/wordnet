@@ -1,6 +1,6 @@
-CWIKIN 標記平台的 SQL 資料結構
+Chinese Wordnet 標記平台的 SQL 資料結構
 =======
-CWIKIN 標記平台的中文詞網資料儲存於 SQL 資料庫，主要有三個資料表：
+Chinese Wordnet 標記平台的中文詞網資料儲存於 SQL 資料庫，主要有三個資料表：
 
 1. cwnlemma：記錄 6 碼的 lemmaid 以及 lemmatype
 
