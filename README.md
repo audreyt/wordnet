@@ -9,6 +9,6 @@ Chinese Wordnet 標記平台的資料儲存於 SQL 資料庫（http://lope.lingu
 3. cwn_goodSynset：記錄 id、gloss、synset member 的 sense_id
 
 
-CKIP 中研院斷詞服務請自行申請
+CKIP 中研院斷詞服務請自行申請帳號
 ======
 http://ckipsvr.iis.sinica.edu.tw
