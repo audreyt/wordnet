@@ -11,4 +11,4 @@ Chinese Wordnet 標記平台的資料儲存於 SQL 資料庫 (http://lope.lingui
 
 CKIP 中研院斷詞服務請自行申請帳號
 ======
-http://ckipsvr.iis.sinica.edu.tw
+請自行申請帳號 (http://ckipsvr.iis.sinica.edu.tw) 並寫入 ckip.py
