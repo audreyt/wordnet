@@ -1,6 +1,6 @@
 Chinese Wordnet 標記平台的 SQL 資料結構
 =======
-Chinese Wordnet 標記平台的資料儲存於 SQL 資料庫（http://lope.linguistics.ntu.edu.tw/cwnvis/data/cwn_dirty.sqlite），主要有三個資料表：
+Chinese Wordnet 標記平台的資料儲存於 SQL 資料庫 (http://lope.linguistics.ntu.edu.tw/cwnvis/data/cwn_dirty.sqlite) ，主要有三個資料表：
 
 1. cwn_lemma：記錄 6 碼的 lemma_id、cwn_pinyin、cwn_zhuyin、lemma_sno 以及 lemma_type
 
