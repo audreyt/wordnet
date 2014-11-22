@@ -9,6 +9,6 @@ def similar(def1,def2):
 
 synsets=list(wordnet.all_synsets())
 
-def1=seg(synsets[0].definition)
-def2=seg(synsets[1].definition)
+def1=seg(synsets[0].definition())
+def2=seg(synsets[1].definition())
 print ' '.join(def1),' '.join(def2),similar(def1,def2)
