@@ -12,4 +12,5 @@ def seg(input):
     xml=s.recv(2048).decode('cp950').encode('utf-8')
     s.close()
     result=parseString(xml).getElementsByTagName('sentence')[0].childNodes[0].data.encode('utf-8')
+    #rm tag
     return [word_tag.split('(')[0] for word_tag in result.split('　')][1:]
