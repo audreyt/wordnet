@@ -1,5 +1,5 @@
-lines=open('data.verb').readlines()
-pos='v'
+lines=open('data.noun').readlines()
+pos='n'
 index={} # {word:[offsets]}
 for line in lines:
     line=line.split()

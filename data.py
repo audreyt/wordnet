@@ -5,7 +5,7 @@ conn=connect('cwn_dirty.sqlite')
 c=conn.cursor()
 
 # begin with one sense (cwn_id) of a particular POS from cwn_pos table
-pos='v' # noun,verb,adj,adv
+pos='n' # noun,verb,adj,adv
 c.execute('select * from cwn_pos where pos like "%'+pos+'%"')
 processed_sense_ids=set()
 for cwn_pos in c.fetchall():
