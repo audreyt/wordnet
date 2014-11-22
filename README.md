@@ -22,7 +22,9 @@ CKIP 中研院斷詞服務
 請自行申請帳號 (http://ckipsvr.iis.sinica.edu.tw) 並寫入 ckip.py
 
 from ckip import seg
+
 username='your username'
+
 password='your password'
 
 詞意相似度計算
