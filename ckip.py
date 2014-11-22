@@ -2,6 +2,7 @@
 import socket
 from xml.dom.minidom import parseString
 
+#plz apply your own CKIP segmentation username
 username='corpustag'
 password='ntucorpus'
 
